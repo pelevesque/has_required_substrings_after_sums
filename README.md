@@ -130,7 +130,7 @@ With `allowLastSubstringToBleed` set to `true`, it returns `true`.
 ```js
 const str = '123can'
 const requiredSubstrings = { 6: 'canal' }
-const allowSubstringBleeding = true
+const allowLastSubstringToBleed = true
 const result = hasRequiredSubstringsAfterSums(str, requiredSubstrings, {
   allowLastSubstringToBleed: allowLastSubstringToBleed
 })
